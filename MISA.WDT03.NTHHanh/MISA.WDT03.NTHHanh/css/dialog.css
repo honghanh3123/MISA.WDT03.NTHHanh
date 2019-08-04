@@ -1,0 +1,192 @@
+.modal-contents {
+    z-index: 2;
+    padding: 0;
+    border-radius: 3px;
+    display: none;
+}
+
+.opacity {
+    display: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-color: black;
+    opacity: 0.6;
+}
+
+.close {
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+    background: url('../Contents/images/common-icon.png') no-repeat -1127px -127px;
+}
+/* end modal box */
+
+.wrapper-contents .toolbar button {
+    border: none;
+    background-color: #026b97;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid #1882ae;
+}
+
+/* form in modal box */
+
+.modal-contents form {
+    height: 550px;
+}
+
+.require {
+    color: red;
+}
+
+label {
+    display: inline-block;
+    width: 127px;
+    padding: 8px 5px 0 0;
+}
+
+.form-row {
+    padding-bottom: 8px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+    .form-row .form-input {
+        display: inline-flex;
+        justify-content: stretch;
+    }
+
+    .form-row .input {
+        position: relative;
+        display: inline-flex;
+        align-items: center;
+        width: 193px;
+    }
+
+.select {
+    width: 17px;
+    border: none;
+    background: white;
+    height: 32px;
+    outline: none
+}
+
+.customer-group {
+    right: 26px !important;
+}
+
+.warning {
+    margin: 5px;
+    display: none;
+}
+
+.modal-contents input {
+    width: 100% !important;
+    max-width: 172px;
+    min-width: 30px;
+    height: 22px;
+    padding: 5px 10px;
+    padding: 5px 10px;
+    border: 1px solid #D0D0D0;
+}
+
+.group-input {
+    display: flex;
+    flex-wrap: wrap;
+    width: 527px
+}
+
+    .group-input input {
+        border-right: none;
+    }
+
+    .group-input .ward-input {
+        border-right: 1px solid #D0D0D0;
+    }
+
+    .group-input #detail-address {
+        border-right: 1px solid #D0D0D0;
+        border-top: none;
+        width: 505px;
+        max-width: 505px !important;
+    }
+
+    .group-input #ward-input-wrapper {
+        width: 175px !important;
+    }
+
+.address {
+    width: 175px !important
+}
+
+    .address .custom-combobox-input {
+        max-width: 154px !important;
+    }
+
+.quick-add {
+    position: absolute;
+    border: none;
+    border-left: 1px solid #d0d0d0;
+    height: 32px;
+    display: flex;
+    padding: 0px 6px;
+    align-items: center;
+    right: 0;
+}
+
+.form-row textarea {
+    width: 505px;
+    border: 1px solid #D0D0D0;
+    height: 60px;
+    padding: 5px 10px
+}
+
+.add-new-customer-group {
+    display: none;
+}
+
+.custom-combobox-input {
+    width: 171px;
+    background: white !important;
+}
+
+.custom-combobox-toggle {
+    background: none;
+    position: absolute;
+    height: 32px;
+    top: 1px;
+    right: 24px;
+    border: none;
+    outline: none;
+    margin: 0;
+}
+
+.combobox-toggle-group-input-dropdown {
+    right: 2px !important;
+}
+
+.combobox-group-input {
+    width: max-content !important;
+}
+
+.custom-combobox-toggle:hover {
+    background: none !important;
+    border: none !important
+}
+
+.pasport-number {
+    max-width: 505px !important;
+    width: 505px
+}
+
+.modal-delete {
+    display: none;
+}

@@ -1,0 +1,14 @@
+D:\My WorkSpace\MISA_test\MISA.Entities\bin\Debug\MISA.Entities.dll.config
+D:\My WorkSpace\MISA_test\MISA.Entities\bin\Debug\MISA.Entities.dll
+D:\My WorkSpace\MISA_test\MISA.Entities\bin\Debug\MISA.Entities.pdb
+D:\My WorkSpace\MISA_test\MISA.Entities\bin\Debug\EntityFramework.dll
+D:\My WorkSpace\MISA_test\MISA.Entities\bin\Debug\EntityFramework.SqlServer.dll
+D:\My WorkSpace\MISA_test\MISA.Entities\bin\Debug\EntityFramework.xml
+D:\My WorkSpace\MISA_test\MISA.Entities\bin\Debug\EntityFramework.SqlServer.xml
+D:\My WorkSpace\MISA_test\MISA.Entities\obj\Debug\MISA.Entities.csprojAssemblyReference.cache
+D:\My WorkSpace\MISA_test\MISA.Entities\obj\Debug\MISA.Entities.Migrations.Initial.resources
+D:\My WorkSpace\MISA_test\MISA.Entities\obj\Debug\MISA.Entities.csproj.GenerateResource.cache
+D:\My WorkSpace\MISA_test\MISA.Entities\obj\Debug\MISA.Entities.csproj.CoreCompileInputs.cache
+D:\My WorkSpace\MISA_test\MISA.Entities\obj\Debug\MISA.Entities.csproj.CopyComplete
+D:\My WorkSpace\MISA_test\MISA.Entities\obj\Debug\MISA.Entities.dll
+D:\My WorkSpace\MISA_test\MISA.Entities\obj\Debug\MISA.Entities.pdb

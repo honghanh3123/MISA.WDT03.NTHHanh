@@ -1,0 +1,167 @@
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    margin: 15px auto;
+}
+
+.menu {
+    background-color: #026b97;
+    height: calc(100vh - 90px);
+    overflow: auto;
+}
+
+.menu-item {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 140px;
+    height: 40px;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer !important;
+}
+
+.menu-item:hover {
+    background-color: #00577b;
+}
+
+a.menu-active {
+    background-color: #00577b !important;
+}
+
+.menu-item .iconcls-home {
+    background-image: url('../Contents/images/icon-tong-quan.png')
+}
+
+a.menu-item .img {
+    height: 34px;
+    width: 24px;
+    margin: 0 10px;
+    background: url('../Contents/images/slibarmenu.png') no-repeat;
+    /*background: url('../Contents/ic_api_20.svg') no-repeat;*/
+}
+
+.img iconcls-mshopkeepersdk {
+    background: url('../Contents/ic_api_20.svg') no-repeat;
+}
+
+
+/*logo home*/
+
+.menu a.menu-item .iconcls-home {
+    background-position: 0 6px;
+}
+
+
+/*logo report*/
+
+.menu a.menu-item .iconcls-report {
+    background-position: 0 -273px;
+}
+
+
+/*logo deliveryledger*/
+
+.menu a.menu-item .iconcls-deliveryledger {
+    background: url('../Contents/images/ic_sogiaohang.png') no-repeat 4px 9px !important;
+}
+
+
+/*logo purchares*/
+
+.menu a.menu-item .iconcls-purchares {
+    background-position: 0 -33px;
+}
+
+
+/*logo stock*/
+
+.menu a.menu-item .iconcls-stock {
+    background-position: 0 -75px;
+}
+
+
+/*logo cash*/
+
+.menu a.menu-item .iconcls-cash {
+    background-position: 0 -115px;
+}
+
+
+/*logo payment-receipt*/
+
+.menu a.menu-item .iconcls-payment-receipt {
+    background-position: -2px -154px;
+}
+
+
+/*logo promotion*/
+
+.menu a.menu-item .iconcls-promotion {
+    background-position: 0 -193px;
+}
+
+
+/*logo dictionary*/
+
+.menu a.menu-item .iconcls-dictionary {
+    background-position: 0 -233px;
+}
+
+
+/*logo meinvoice*/
+
+.menu a.menu-item .iconcls-meinvoice {
+    background: url('../Contents/images/Logo_meInvoice.svg') no-repeat center 7px !important;
+}
+
+
+/*logo settings*/
+
+.menu a.menu-item .iconcls-settings {
+    background-position: 0 -313px;
+}
+
+
+/*logo menuhelp*/
+
+.menu a.menu-item .iconcls-menuhelp {
+    background-position: 0 -383px;
+}
+
+.bottom-content-menu a.menu-item .iconcls-ward {
+    background-position: 0 -350px;
+}
+
+
+/*logo omnichannel*/
+
+.menu a.menu-item .iconcls-omnichannel {
+    background: url('../Contents/images/ic_ocm_logo.png') no-repeat 4px 9px !important;
+}
+
+
+/*logo fiveshop*/
+
+.menu a.menu-item .iconcls-fiveshop {
+    background: url('../Contents/images/icon_5shop_white_24_1.png') no-repeat 0 5px !important;
+}
+
+
+.uncheck {
+    background: url('/Contents/uncheck.png') no-repeat center;
+    width: 30px;
+}
+
+.tick {
+    background-color: aquamarine !important;
+}
+
+.check {
+    background: url('/Contents/check.png') no-repeat center;
+    width: 30px;
+}

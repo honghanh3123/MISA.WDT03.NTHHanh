@@ -1,0 +1,329 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MISA.WDT03.NTHHanh</title>
+    <link href="../Script/jquery-ui-1.12.1.custom/jquery-ui.css" rel="stylesheet" />
+    <link href="../css/index.css" rel="stylesheet" />
+    <link href="../css/headers.css" rel="stylesheet" />
+    <link href="../css/dialog.css" rel="stylesheet" />
+    <link href="../css/menus.css" rel="stylesheet" />
+    <link href="../css/toolbar.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="nav-menu">
+            <div class="logo">
+                <img src="../Contents/logo-mshopkeeper.png" />
+            </div>
+            <div class="menu">
+                <a class="menu-item menu-active">
+                    <span class="img iconcls-home">&nbsp;</span>
+                    <span class="link-text">Tổng quan</span>
+                </a>
+                <a class="menu-item cls-report">
+                    <span class="img iconcls-report">&nbsp;</span>
+                    <span class="link-text">Báo cáo</span>
+                </a>
+                <a class="menu-item cls-deliveryledger">
+                    <span class="img iconcls-deliveryledger">&nbsp;</span>
+                    <span class="link-text">Sổ giao hàng</span>
+                </a>
+                <a class="menu-item cls-purchares">
+                    <span class="img iconcls-purchares">&nbsp;</span>
+                    <span class="link-text">Mua hàng</span>
+                </a>
+                <a class="menu-item cls-stock">
+                    <span class="img iconcls-stock">&nbsp;</span>
+                    <span class="link-text">Kho</span>
+                </a>
+                <a class="menu-item cls-cash">
+                    <span class="img iconcls-cash">&nbsp;</span>
+                    <span class="link-text">Quỹ tiền</span>
+                </a>
+                <a class="menu-item cls-payment-receipt">
+                    <span class="img iconcls-payment-receipt">&nbsp;</span>
+                    <span class="link-text">Chi phí</span>
+                </a>
+                <a class="menu-item cls-promotion">
+                    <span class="img iconcls-promotion">&nbsp;</span>
+                    <span class="link-text">Khuyến mại</span>
+                </a>
+                <a class="menu-item cls-dictionary">
+                    <span class="img iconcls-dictionary">&nbsp;</span>
+                    <span class="link-text">Danh mục</span>
+                </a>
+                <a class="menu-item cls-meinvoice">
+                    <span class="img iconcls-meinvoice">&nbsp;</span>
+                    <span class="link-text">Hóa đơn điện tử</span>
+                </a>
+                <a class="menu-item cls-settings">
+                    <span class="img iconcls-settings">&nbsp;</span>
+                    <span class="link-text">Thiết lập</span>
+                </a>
+                <a class="menu-item cls-menuhelp">
+                    <span class="img iconcls-menuhelp">&nbsp;</span>
+                    <span class="link-text">Trợ giúp</span>
+                </a>
+                <a class="menu-item cls-omnichannel">
+                    <span class="img iconcls-omnichannel">&nbsp;</span>
+                    <span class="link-text">OCM</span>
+                </a>
+                <a class="menu-item cls-fiveshop">
+                    <span class="img iconcls-fiveshop">&nbsp;</span>
+                    <span class="link-text">5Shop</span>
+                </a>
+                <a class="menu-item cls-mshopkeepersdk">
+                    <span class="img iconcls-mshopkeepersdk">&nbsp;</span>
+                    <span class="link-text">API</span>
+                </a>
+            </div>
+            <div class="bottom-content-menu">
+                <a class="menu-item cls-home">
+                    <span class="img iconcls-ward">&nbsp;</span>
+                    <span class="link-text">Hàng hóa</span>
+                </a>
+            </div>
+        </div>
+        <div class="wrapper-contents">
+            <div class="headers">
+                <span class="title">Khách hàng</span>
+                <div class="headers-menu">
+                    <div class="help">
+                        <span class="icon icon-help"></span>
+                    </div>
+                    <div class="notification">
+                        <span class="icon icon-notification"></span>
+                    </div>
+                    <div class="support"></div>
+                    <div class="user">
+                        <div class="avatar">
+                            <img src="../Contents/avatar.jpeg" width="30px" alt="">
+                        </div>
+                        <div class="dropdown">
+                            <span class="username">admin</span>
+                            <i class="fas fa-chevron-down icon-down"></i>
+                        </div>
+                        <div class="dropdown-content">
+                            <a href="#">
+                                <span>
+                                    <img src="../Contents/icon-change-password16.png" alt="">
+                                </span>
+                                <span>Thay đổi mật khẩu</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="list-shop"></div>
+                </div>
+            </div>
+            <div class="contents">
+                <div class="toolbar">
+                    <button class="toolbar-item add-new" title="Ctrl+1">
+                        <div class="icon add-new">
+                        </div>
+                        <span>Thêm mới</span>
+                        <div class="arrow-down-white">
+                        </div>
+                    </button>
+                    <button class="toolbar-item duplicate">
+                        <div class="icon duplicate">
+                        </div>
+                        <span>Nhân bản</span>
+                    </button>
+                    <button class="toolbar-item view" disabled>
+                        <div class="icon view">
+                        </div>
+                        <span>Xem</span>
+                    </button>
+                    <button class="toolbar-item edit" title="Ctrl+E">
+                        <div class="icon edit">
+                        </div>
+                        <span>Sửa</span>
+                    </button>
+                    <button class="toolbar-item delete" title="Ctrl+D">
+                        <div class="icon delete">
+                        </div>
+                        <span>Xóa</span>
+                    </button>
+                    <button class="toolbar-item reload">
+                        <div class="icon reload">
+                        </div>
+                        <span>Nạp</span>
+                    </button>
+                    <div class="opacity"></div>
+                    <div class="modal-contents">
+                        <form action="#" method="post">
+                            <div class="user-info">
+                                <h2>Thông tin cơ bản</h2>
+                                <div class="form-row">
+                                    <div class="form-input">
+                                        <label for="customerNumber">Mã khách hàng <span class="require">*</span></label>
+                                        <div class="input">
+                                            <input type="text" name="customerNumber" id="customerNumber" property="CustomerCode">
+                                            <span class="warning"><img src="../Contents/exclamation.png" alt=""></span>
+                                        </div>
+                                    </div>
+                                    <div class="form-input">
+                                        <label for="customerName">Tên khách hàng <span class="require">*</span></label>
+                                        <div class="input">
+                                            <input type="text" name="customerName" id="customerName" property="CustomerName">
+                                            <span class="warning"><img src="../Contents/exclamation.png" alt=""></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-input">
+                                        <label for="customerGroup">Nhóm khách hàng </label>
+                                        <div class="input">
+                                            <select class="combobox">
+                                                <option value="jquery">jQuery.js</option>
+                                                <option value="jqueryui">ui.jQuery.js</option>
+                                                <option value="somefile">Some unknown file</option>
+                                                <option value="someotherfile">
+                                                    Some other file with a very long
+                                                    option text
+                                                </option>
+                                            </select>
+                                            <span class="quick-add">
+                                                <img src="https://misard.mshopkeeper.vn/g2/resources/images/quick-add.png"
+                                                     alt="">
+                                            </span>
+                                            <div class="add-new-customer-group">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-input">
+                                        <label for="customerName">Số điện thoại <span class="require">*</span></label>
+                                        <div class="input">
+                                            <input type="text" name="customerName" id="customerName" property="Phone">
+                                            <span class="warning"><img src="../Contents/exclamation.png" alt=""></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <label for="customAddress">Địa chỉ </label>
+                                    <div class="group-input">
+                                        <div class="input address">
+                                            <select class="combobox combobox-group-input" id="Tỉnh thành">
+                                                <option value="jquery">Hà Nội</option>
+                                            </select>
+                                        </div>
+                                        <div class="input address">
+                                            <select class="combobox combobox-group-input" id="Quận/huyện">
+                                                <option value="jquery">Cầu Giấy</option>
+                                            </select>
+                                        </div>
+                                        <div class="input address"   id="Phường/xã">
+                                            <select class="combobox combobox-group-input">
+                                                <option value="jquery">Dịch Vọng Hậu</option>
+                                            </select>
+                                        </div>
+                                        <input type="text" id="detail-address" placeholder="Số nhà, số đường">
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-input">
+                                        <label for="customerNumber">Email </label>
+                                        <div class="input">
+                                            <input type="text" name="email" id="email-input">
+                                        </div>
+                                    </div>
+                                    <div class="form-input">
+                                        <label for="customerName">Ngày sinh </label>
+                                        <div class="input">
+                                            <input type="text" name="date" id="date-input" property="DateOfbirth">
+                                            <span class="date-logo"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <label for="note">Ghi chú </label>
+                                    <textarea name="" id="CustomerNote" cols="30" rows="10" property="Note"></textarea>
+                                </div>
+                            </div>
+                            <div class="member">
+                                <h2>Thẻ thành viên</h2>
+                                <div class="form-row">
+                                    <div class="form-input">
+                                        <label for="customerNumber">Mã thẻ thành viên </label>
+                                        <div class="input">
+                                            <input type="text" name="customerNumber" id="customerNumber">
+                                            <span class="warning"><img src="../Contents/exclamation.png" alt=""></span>
+                                        </div>
+                                    </div>
+                                    <div class="form-input">
+                                        <label for="customerGroup">Hạng thẻ </label>
+                                        <div class="input">
+                                            <select class="combobox combobox-group-input">
+                                                <option value="Vip">Vip</option>
+                                                <option value="someotherfile">
+                                                    Some other file with a very long
+                                                    option text
+                                                </option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <label for="customerNumber">Số CMND/Hộ chiếu </label>
+                                    <input type="text" class="pasport-number">
+                                </div>
+                            </div>
+                            <div class="company">
+                                <h2>Thông tin công ty</h2>
+                                <div class="form-row">
+                                    <div class="form-input">
+                                        <label for="customerNumber">Tên công ty </label>
+                                        <div class="input">
+                                            <input type="text" name="customerNumber" id="customerNumber">
+                                        </div>
+                                    </div>
+                                    <div class="form-input">
+                                        <label for="customerName">Mã số thuế  </label>
+                                        <div class="input">
+                                            <input type="text" name="customerName" id="customerName">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-delete">
+                        <p>Bạn có muốn xóa người dùng này ko ?</p>
+                    </div>
+                </div>
+                <div class="table-content">
+                    <table class="main-table">
+                        <thead>
+                            <tr>
+                                <th fieldName="" class="icon-tick uncheck"></th>
+                                <th fieldName="CustomerCode">Mã khách hàng</th>
+                                <th fieldName="CustomerName">Tên khách hàng</th>
+                                <th fieldName="Phone">Điện thoại</th>
+                                <th fieldName="DateOfbirth">Ngày sinh</th>
+                                <th fieldName="CustomerGroup">Nhóm khách hàng</th>
+                                <th fieldName="Note">Ghi chú</th>
+                                <th fieldName="Static">Trạng thái</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../Script/jquery-3.4.1.min.js"></script>
+    <script src="../Script/jquery-1.12.4.js"></script>
+    <script src="../Script/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+    <script src="../Script/commonfi.js"></script>
+    <script src="../Script/index.js"></script>
+    <script src="../Script/Base.js"></script>
+    <script src="../Script/Common.js"></script>
+</body>
+
+</html>

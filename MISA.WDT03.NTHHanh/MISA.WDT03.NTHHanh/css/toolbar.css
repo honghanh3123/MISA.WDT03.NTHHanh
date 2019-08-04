@@ -1,0 +1,141 @@
+.wrapper-contents .toolbar {
+    height: 35px;
+    width: 100%;
+    background-color: #026b97;
+    display: flex;
+}
+
+.wrapper-contents .toolbar button:hover {
+    background-color: #168dbf;
+}
+
+.wrapper-contents .main-content {
+    height: 500px;
+    overflow: auto;
+}
+
+.wrapper-contents .main-content table {
+    border-collapse: collapse;
+}
+
+.wrapper-contents .main-content table tr:hover {
+    background-color: #8cd8f7;
+}
+
+.wrapper-contents .main-content table th {
+    border: 1px solid #000;
+}
+
+.wrapper-contents .main-content table td {
+    border: 1px solid #000;
+}
+
+.wrapper-contents .toolbar .icon {
+    margin: 0 5px;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    background: url(../Contents/images/common-icon.png) no-repeat -2px 0px;
+}
+
+.wrapper-contents .toolbar .icon.add-new {
+    background-position: -1px -127px;
+}
+
+
+/*Icon mũi tên màu trắng*/
+
+.wrapper-contents .toolbar  .arrow-down-white {
+    background: url('../Contents/images/arrow-down-white.png') no-repeat !important;
+    margin-left: 15px;
+    width: 7px;
+    height: 3px;
+    cursor: pointer;
+}
+
+
+/*Icon nhân bản*/
+
+.wrapper-contents .toolbar  .icon.duplicate {
+    background-position: -976px -127px;
+}
+
+
+/*Icon xem*/
+
+.wrapper-contents .toolbar  .icon.view {
+    background-position: -1602px -127px;
+}
+
+.wrapper-contents .toolbar  .icon.delete-row {
+    background-position: -2px 0px;
+    margin-left: 8px;
+}
+
+
+/*Icon chỉnh sửa*/
+
+.wrapper-contents .toolbar  .icon.edit {
+    background-position: -77px -203px;
+}
+
+
+/*Icon xóa*/
+
+.wrapper-contents .toolbar  .icon.delete {
+    background-position: -1076px -127px;
+}
+
+
+/*Icon tải lại (nạp)*/
+
+.wrapper-contents .toolbar  .icon.reload {
+    background-position: -876px -127px;
+}
+
+
+/*Icon mũi tên màu đen*/
+
+.wrapper-contents .toolbar  .arrow-down-black {
+    background: url('../Contents/images/arrow-down-line.png') no-repeat center !important;
+    width: 18px;
+    height: 35px;
+    cursor: pointer;
+}
+
+
+/*Icon ngày*/
+
+.wrapper-contents .toolbar  .icon.date {
+    background-position: 0 -169px;
+    height: 24px;
+    width: 24px;
+}
+
+
+/*Icon lấy dữ liệu*/
+
+.wrapper-contents .toolbar  .icon.getdata {
+    background-position: -601px -128px;
+}
+
+
+/*Icon trước*/
+
+.wrapper-contents .toolbar  .icon.before {
+    background-position: -475px -127px;
+}
+
+
+/*Icon sau*/
+
+.wrapper-contents .toolbar  .icon.after {
+    background-position: -425px -127px;
+}
+
+
+/*Icon lưu*/
+
+.icon.save {
+    background-position: -325px -127px;
+}

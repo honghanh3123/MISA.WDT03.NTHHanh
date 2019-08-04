@@ -1,0 +1,118 @@
+html body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto',Tahoma,sans-serif!important;
+    font-size: 13px;
+}
+
+.ui-datepicker {
+    z-index: 1000 !important;
+}
+
+.ui-dialog {
+    padding: 0 !important;
+}
+
+.ui-dialog-titlebar-close {
+    right: 12px !important;
+    border: none;
+    background: none;
+}
+
+.ui-dialog-title {
+    font-size: 16px;
+}
+
+.ui-dialog-titlebar {
+    height: 28px;
+    display: flex;
+    align-items: center;
+}
+
+.date-logo {
+    right: 8px;
+    position: absolute;
+    width: 20px;
+    height: 32px;
+    background: url(../Contents/images/common-icon.png) no-repeat 0 -169px;
+}
+
+.wrapper {
+    display: flex;
+    align-content: stretch
+}
+
+.nav-menu {
+    background-color: #00577b;
+    height: 100vh;
+    width: 140px;
+}
+
+input {
+    outline-color: rgb(82, 82, 255);
+    outline-width: 1px;
+}
+
+.wrapper-contents {
+    width: calc(100% - 140px);
+}
+
+.wrapper-contents .contents {
+    background-color: #e5e6eb;
+    padding: 9px;
+    height: calc(100vh - 70px);
+}
+
+
+/* table */
+.table-content {
+    height: calc(100vh - 135px);
+    overflow: auto;
+}
+
+.main-table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow: auto;
+    min-width: 1000px;
+    font-family: 'Roboto',Tahoma,sans-serif !important;
+    font-size: 13px;
+}
+    .main-table .tick-all {
+        width: 20px;
+        padding: 7px 10px 6px;
+    }
+    .main-table tbody tr {
+        height: 35.4px;
+        background-color: #ffffff;
+    }
+
+        .main-table tbody tr:nth-child(even) {
+            background-color: #eaeff4;
+        }
+.name {
+    
+    color: #007abc;
+}
+.main-table th {
+    border: 1px solid #d0d0d0;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding: 7px 10px 6px;
+    background-color: #eaeff4;
+    height: 35.2px;
+}
+
+    .main-table td {
+        border: 1px solid #d0d0d0;
+        box-sizing: border-box;
+        /*background-color: #ffffff;*/
+    }
+
+.selected {
+    background-color: #C3ECFF !important;
+}
+
+.CustomerName {
+    color: #27B0EE;
+}
